@@ -54,8 +54,20 @@ namespace Business.Constants
         public static string CustomerIdFound = "Müşteri Bulundu.";
         public static string RentalByIdFound = "Kiralama Bilgisi Bulundu";
 
+        //CarImage
         public static string CarImageLimitExceeded = "Araba resim yükleme limiti aşıldı";
         public static string ImageAdded = "Resim Yüklendi";
+
+        //Claim
+        public static string AuthorizationDenied = "Yetkiniz yok";
+
+        //Auth
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Parola hatası";
+        public static string SuccessfulLogin = "Başarılı Giriş";
+        public static string UserAlreadyExists = "Kullanıcı mevcut";
+        public static string AccessTokenCreated = "Token oluşturuldu";
+        public static string UserRegistered = "Kullanıcı Kayıt Oldu";
 
         // SYSTEM
         public static string MaintenanceTime = "Sistem Bakımda";

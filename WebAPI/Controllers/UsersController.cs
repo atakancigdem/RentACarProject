@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Business.Abstract;
 using Core.Utilities.Results.Concrete;
-using Entities.Concrete;
+using Core.Entities.Concrete;
 
 namespace WebAPI.Controllers
 {
