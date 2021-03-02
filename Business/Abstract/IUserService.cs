@@ -6,7 +6,7 @@ using Core.Entities.Concrete;
 namespace Business.Abstract
 {
     public interface IUserService
-    {
+    { 
         IDataResult<List<OperationClaim>> GetClaims(User user);
         IDataResult<List<User>> GetAll();
         IDataResult<List<User>> GetByName(string firstName, string lastName);
