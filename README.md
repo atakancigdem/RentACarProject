@@ -25,14 +25,16 @@
 <p>I have assigned variables to entities</p>
 
 ```cs
-class Customer
-{
-    public int Id { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public int BirthYear { get; set; }
-    public string NationlityId { get; set; }
-}
+public class Car : IEntity
+    {
+        public int Id { get; set; }
+        public string CarName { get; set; }
+        public int BrandId { get; set; }
+        public int ColorId { get; set; }
+        public short ModelYear { get; set; }
+        public int DailyPrice { get; set; }
+        public string Description { get; set; }
+    }
 ```
 <p>I added features such as Id, Name, Surname, Nationality. 
 I adjusted the customer, product, purchasing, verification interfaces in the ABSTRACT class.</p>
